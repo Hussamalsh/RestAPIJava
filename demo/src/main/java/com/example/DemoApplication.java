@@ -21,7 +21,8 @@ public class DemoApplication {
 	private static final Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 
 
-	 @RequestMapping("/user")
+	 
+	@RequestMapping("/user")
 	  public Principal user(Principal principal) {
 	    return principal;
 	  }
